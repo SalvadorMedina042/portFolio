@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+body{
+    font-family: 'Source Code Pro', monospace;
+    background-color: #FFF7EE;     
+    
+}
+/*===== Footer =====*/
+.footer{
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background-color: #FFF7EE;  
+}
+
+iframe{
+
+    width: 100%;
+    height: 100%;
+
+}
+
+/*===== P soy salvador  en el home =====*/
+
+p{
+     margin-top: auto; 
+     margin-bottom: auto; 
+   color: #EED283;
+    line-height: 50%;
+}
+#containerHomeTexto{
+
+padding-top: 5%;
+color: #707070; /*=====Un casi negro para todos los colores del p=====*/
+
+}
+
+
+#colorAzul{
+
+    color: #228CDD;
+}
+.azulClaro{
+background-color: #A7CFE8;
+
+
+}
+/*===== cosas para el menu =====*/
+
+#logoMenu{
+
+    width: 15%;
+    position: relative;
+    margin-left: 80%;
+    margin-bottom: 65%;
+    
+}
+#pHomeSalvador{
+    padding-bottom: 3em;
+    padding-top: 15%;
+}
+
+#botonSinborde{
+
+    border: none;
+}
+
+#contactameBoton{
+  
+    text-align: center;
+    margin-top: 14%;
+}
+/*===== dar formato al boton contactame =====*/
+.btn-contactame{
+
+    background-color: #FFFFFF;
+    color: #707070;
+    border: solid 1px;
+    border-radius: 2em;
+}
+
+#ponerDerecha{
+
+    margin-left: 75%;
+}
+#botonMenu{
+
+    border: none;
+}
+/*===== formato de los a del menu =====*/
+a{
+
+    text-decoration: none;
+    color: #228CDD;
+}
+
+@media (min-width: 768px){
+p{
+
+    font-size: 24;
+}
+
+.icon-bar img{
+    right: 0;
+    float: right;
+    width:90px;
+    height:60px;
+}
+.btn-contactame{
+    margin-bottom: 5%;
+    color: #707070;
+    border: solid 1px;
+    border-radius: 2em;
+}
+}
+
+.tamatoNavPc{
+
+    height: 129px;
+}
+
+
+@media (min-width: 1100px){
+
+    .celdasFormulario{
+        font-size: 30px;
+        background-color: #FFECD3;
+        padding-left: 6%;
+        margin-bottom: 5%;
+        border-radius: 20px;
+    }
+    a{
+       
+        font-size: 44px;
+        color: #E2EBF1;
+    }
+    a img{
+        padding-right: 1%;
+        margin-bottom: 1%;
+    }
+
+    p{
+      color: #EED283;
+        line-height: 80%;
+    }
+    .btn-contactame{
+        
+        width: 30%;
+        background-color: #FFFFFF;
+        color: #707070;
+        border: solid 1px;
+        border-radius: 3em;
+        font-size: 30px;
+    }
+    
+
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    color: #C2A34B;
+    text-decoration: underline #C2A34B 3px;        /* Subrayado rojo */
+}
+
+
+.pSobreMi {
+    line-height: normal;
+}
+
+
+
+
+.celdasFormulario{
+  
+    background-color: #FFECD3;
+    padding-left: 6%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+.form-control::placeholder { 
+    color: #EEBF83;
+ 
+}
+
+.colorFondoTopFormulario{
+
+
+    background-color: #EAEAEA;    
+}
+
+.navbar{
+
+    padding-right: 15%;
+    position: relative;
+ 
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+h2{
+
+    color: #EEBF83;
+}
+
+
+img, svg {
+    margin-bottom: 0%;
+    vertical-align: middle;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+body{
+    background-color: #EAEAEA;     
+    font-family: 'Source Code Pro', monospace;
+}
+/*===== Footer =====*/
+.footer{
+    height: 50px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    background-color: #EAEAEA; 
+}
+
+iframe{
+
+    width: 100%;
+    height: 100%;
+}
+
+/*===== P soy salvador  en el home =====*/
+
+
+#containerHomeTexto{
+
+padding-top: 5%;
+color: #707070; /*=====Un casi negro para todos los colores del p=====*/
+
+}
+
+
+.colorAzul{
+
+    color: #228CDD;
+}
+.azulClaro{
+background-color: #A7CFE8;
+
+
+}
+/*===== cosas para el menu =====*/
+
+#logoMenu{
+
+    width: 15%;
+    position: relative;
+    margin-left: 80%;
+    margin-bottom: 65%;
+    
+}
+#pHomeSalvador{
+    
+    padding-bottom: 3em;
+    padding-top: 15%;
+}
+
+#botonSinborde{
+
+    border: none;
+}
+
+#contactameBoton{
+  
+    text-align: center;
+    margin-top: 14%;
+}
+/*===== dar formato al boton contactame =====*/
+.btn-contactame{
+
+    background-color: #FFFFFF;
+    color: #707070;
+    border: solid 1px;
+    border-radius: 2em;
+}
+
+#ponerDerecha{
+
+    margin-left: 75%;
+}
+#botonMenu{
+
+    border: none;
+}
+/*===== formato de los a del menu =====*/
+a{
+
+    text-decoration: none;
+    color: #228CDD;
+}
+
+@media (min-width: 768px){
+
+p{
+    color: #707070;
+    font-size: 48px;
+}
+
+.icon-bar img{
+    right: 0;
+    float: right;
+    width:90px;
+    height:60px;
+}
+.btn-contactame{
+    height: 5em;
+    width: 10em;
+    color: #707070;
+    border: solid 1px;
+    border-radius: 2em;
+}
+}
+
+.tamatoNavPc{
+
+    height: 129px;
+}
+
+.container img{
+    border-radius: 20px;
+}
+
+@media (min-width: 1100px){
+
+    a{
+       
+        font-size: 44px;
+        color: #E2EBF1;
+    }
+    
+
+    p{
+        line-height: 110%;
+        color: #707070;
+    }
+    .btn-contactame{
+        width: 50%;
+        background-color: #FFFFFF;
+        color: #707070;
+        border: solid 1px;
+        border-radius: 3em;
+        font-size: 30px;
+    }
+
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    color: #4BADEB;
+    text-decoration: underline #4BADEB 3px;        /* Subrayado rojo */
+}
+
+ 
+a img{
+    padding-right: 1%;
+    margin-bottom: 1%;
+}
+
+
+
+.pSobreMi {
+    line-height: normal;
+}
